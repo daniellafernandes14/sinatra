@@ -19,4 +19,5 @@ post '/restaurants' do
   city = params[:city]
   Restaurant.create({ name: name, city: city })
   redirect '/'
+
 end

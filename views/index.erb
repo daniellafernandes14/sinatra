@@ -3,7 +3,9 @@
 
 <ol>
   <% @restaurants.each do |restaurant| %>
-  <li><a href='restaurants/<%= restaurant.id %>'> <%= restaurant.name %></a></li>
+    <li>
+      <a href='restaurants/<%= restaurant.id %>'> <%= restaurant.name %></a>
+    </li>
   <% end %>
 </ol>
 
