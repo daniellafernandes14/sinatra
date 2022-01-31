@@ -1,1 +1,8 @@
 db/development.sqlite3
+config/application.rb
+config/database.yml
+Gemfile
+Gemfile.lock
+README.md
+Rakefile
+db/schema.rb
